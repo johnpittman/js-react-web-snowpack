@@ -1,17 +1,9 @@
-import './style.css';
-
 import React from 'react';
 
-export interface HomeProps {}
+import Component from './component';
 
 function Home() {
-  const baseClassName = 'Home';
-  const classNames = {
-    root: baseClassName,
-    icon: `${baseClassName}__icon`
-  };
-
-  return <div className={classNames.root}>Home</div>;
+  return <Component />;
 }
 
 export default Home;
