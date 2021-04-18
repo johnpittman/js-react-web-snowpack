@@ -1,0 +1,11 @@
+.Two {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  background: orange;
+
+  &__icon {
+    color: green;
+  }
+}

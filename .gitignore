@@ -1,3 +1,14 @@
-.snowpack
-build
+# Dev
 node_modules
+lib
+build
+storybook-static
+*.log
+
+# Cache
+.*cache
+*.tsbuildinfo
+.snowpack
+
+# OS
+.DS_Store
